@@ -1,0 +1,21 @@
+# raw & parquet taxi data
+/homework/yellow/
+/notebooks/data/
+/notebooks/fhvhv/
+/notebooks/zones/
+
+*/_SUCCESS              # Spark success markers
+
+# common file types
+*.parquet
+*.parquet.crc
+*.par
+*.csv
+*.csv.gz
+*.gz
+
+# Python/venv/etc
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
